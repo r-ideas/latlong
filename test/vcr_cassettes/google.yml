@@ -1,0 +1,215 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Sacramento&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 29 Oct 2014 16:56:51 GMT
+      Expires:
+      - Thu, 30 Oct 2014 16:56:51 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic,p=0.01
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "results" : [
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Sacramento",
+                       "short_name" : "Sacramento",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Sacramento County",
+                       "short_name" : "Sacramento County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "California",
+                       "short_name" : "CA",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Sacramento, CA, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 38.685507,
+                          "lng" : -121.325705
+                       },
+                       "southwest" : {
+                          "lat" : 38.437574,
+                          "lng" : -121.56012
+                       }
+                    },
+                    "location" : {
+                       "lat" : 38.5815719,
+                       "lng" : -121.4943996
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.685507,
+                          "lng" : -121.325705
+                       },
+                       "southwest" : {
+                          "lat" : 38.437574,
+                          "lng" : -121.56012
+                       }
+                    }
+                 },
+                 "types" : [ "locality", "political" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Sacramento",
+                       "short_name" : "Sacramento",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "McLean County",
+                       "short_name" : "McLean County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "Kentucky",
+                       "short_name" : "KY",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    },
+                    {
+                       "long_name" : "42372",
+                       "short_name" : "42372",
+                       "types" : [ "postal_code" ]
+                    }
+                 ],
+                 "formatted_address" : "Sacramento, KY 42372, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 37.4236159,
+                          "lng" : -87.26071
+                       },
+                       "southwest" : {
+                          "lat" : 37.409841,
+                          "lng" : -87.274338
+                       }
+                    },
+                    "location" : {
+                       "lat" : 37.4158783,
+                       "lng" : -87.26555309999999
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.4236159,
+                          "lng" : -87.26071
+                       },
+                       "southwest" : {
+                          "lat" : 37.409841,
+                          "lng" : -87.274338
+                       }
+                    }
+                 },
+                 "types" : [ "locality", "political" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Sacramento",
+                       "short_name" : "Sacramento",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Hubley",
+                       "short_name" : "Hubley",
+                       "types" : [ "administrative_area_level_3", "political" ]
+                    },
+                    {
+                       "long_name" : "Schuylkill County",
+                       "short_name" : "Schuylkill County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "Pennsylvania",
+                       "short_name" : "PA",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    },
+                    {
+                       "long_name" : "17968",
+                       "short_name" : "17968",
+                       "types" : [ "postal_code" ]
+                    }
+                 ],
+                 "formatted_address" : "Sacramento, PA 17968, USA",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 40.6345309,
+                       "lng" : -76.5888514
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 40.6358798802915,
+                          "lng" : -76.58750241970849
+                       },
+                       "southwest" : {
+                          "lat" : 40.63318191970851,
+                          "lng" : -76.59020038029151
+                       }
+                    }
+                 },
+                 "types" : [ "locality", "political" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Wed, 29 Oct 2014 16:56:51 GMT
+recorded_with: VCR 2.9.3
