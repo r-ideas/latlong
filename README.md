@@ -2,6 +2,12 @@
 
 Finds latitude and longitude for given address
 
+[![Gem Version](https://badge.fury.io/rb/latlong.svg)](http://badge.fury.io/rb/latlong)
+[![Build Status](https://travis-ci.org/r-ideas/latlong.svg)](https://travis-ci.org/r-ideas/latlong)
+[![Code Climate](https://codeclimate.com/github/r-ideas/latlong/badges/gpa.svg)](https://codeclimate.com/github/r-ideas/latlong)
+[![Test Coverage](https://codeclimate.com/github/r-ideas/latlong/badges/coverage.svg)](https://codeclimate.com/github/r-ideas/latlong)
+[![Dependency Status](https://gemnasium.com/r-ideas/latlong.svg)](https://gemnasium.com/r-ideas/latlong)
+
 ## Installation
 
 Add this line to your application's Gemfile:
